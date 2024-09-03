@@ -32,5 +32,6 @@ for /f "tokens=2 delims=:" %%a in ('ipconfig ^| findstr "IPv4 Address"') do echo
 
 echo.
 echo OpenSSH Server installed and configured successfully!
+type welcome_Temp.txt
 pause
 
